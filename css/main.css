@@ -1,0 +1,93 @@
+
+:root{
+    --primary:#FFE9D2;
+    --secondary:#FFE1C4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+ 
+#nav {
+    height: 70px;
+    background: #fff;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/4.jpg);
+    -moz-background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/4.jpg);
+    -webkit-background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/4.jpg);
+    -o-background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/4.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+.header input {
+    width: 100%;
+    max-width: 380px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0,2s ease-out;
+}
+.header input:focus {
+    background-color: antiquewhite;
+}
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.location .city {
+    color: antiquewhite;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.location .date {
+    color: #fff;
+    font-size: 16px;
+
+}
+.location .temp {
+    color: #fff;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 8px rgba(0,0,0,0.6);
+}
+.current .temp span {
+    font-weight: 500;
+}
+.current .weather {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 8px 3px rgba(0,0,0,0.4);
+}
+.current .hi-low {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 3px rgba(0,0,0,0.4);
+}

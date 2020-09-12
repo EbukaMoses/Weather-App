@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="/manifest.json">
+    <!-- IOS support -->
+    <link rel="apple-touch-Icon" href="/icons/icon-96x95">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="#FFE1CA">
+</head>
+<body>
+    <header>      
+        <nav id="nav">
+            <br>
+            <center><h1 class="font-weight-bold text-info">WEATHER APP</h1></center>
+        </nav>        
+    </header>
+    <section class="main">
+        <div class="header">
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
+        </div>
+
+        <main>
+            <div class="location">
+                <div class="city">-</div>
+                <div class="date">-</div>
+            </div>
+            <div class="current">
+                <div class="temp">-<span>°C</span></div>
+                <div class="weather">-</div>
+                <div class="hi-low">°C / °C</div>
+            </div>
+        </main>
+    </section>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html> 
